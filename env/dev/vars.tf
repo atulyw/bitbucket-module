@@ -9,3 +9,7 @@ variable "stage_name" {
 variable "common_vars" {
   type = any
 }
+
+variable "unique_vars" {
+  type = any
+}
