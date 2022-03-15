@@ -12,17 +12,17 @@ resource "bitbucket_deployment" "this" {
 
 resource "bitbucket_deployment_variable" "common" {
   deployment = bitbucket_deployment.this.id
-  name = var.variable_name
+  key = var.variable_name
   value = var.variable_value
   secured = var.variable_secured
 }
 
-resource "bitbucket_deployment_variable" "unique" {
-  deployment = bitbucket_deployment.this.id
-  name = var.u_variable_name
-  value = var.u_variable_value
-  secured = var.u_variable_secured
-}
+# resource "bitbucket_deployment_variable" "unique" {
+#   deployment = bitbucket_deployment.this.id
+#   name = var.u_variable_name
+#   value = var.u_variable_value
+#   secured = var.u_variable_secured
+# }
 
 terraform {
   required_providers {
