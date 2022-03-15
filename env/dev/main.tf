@@ -12,7 +12,7 @@
 resource "bitbucket_repository" "this" {
   owner             = var.owner
   name              = var.repo_name
-  pipelines_enabled = true
+#git  pipelines_enabled = true
 }
 
 resource "bitbucket_deployment" "this" {
