@@ -1,8 +1,8 @@
 terraform {
   required_providers {
     bitbucket = {
-      source  = "aeirola/bitbucket"
-      version = "2.0.2"
+      source  = "DrFaust92/bitbucket"
+      version = "2.9.0"
     }
   }
 }
