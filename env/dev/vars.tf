@@ -2,14 +2,22 @@ variable "owner" {
   type = string
 }
 
+variable "repo_name" {
+  type = string
+}
+
 variable "stage_name" {
   type = string
 }
 
-variable "common_vars" {
-  type = any
+variable "variable_name" {
+  type = string
 }
 
-variable "unique_vars" {
-  type = any
+variable "variable_value" {
+  type = string
+}
+
+variable "variable_secured" {
+  type = string
 }
