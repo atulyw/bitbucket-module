@@ -8,6 +8,6 @@ terraform {
 }
 
 provider "bitbucket" {
-  username = "atulyw"
-  password = "GQaGUXqfVxJLnhtaGamF"
+  username = "terraform"
+  password = "eqwxdxTCcUAbqSpEsZ6Pg"
 }
