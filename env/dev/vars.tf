@@ -7,5 +7,5 @@ variable "stage_name" {
 }
 
 variable "common_vars" {
-  type = map(string)
+  type = any
 }
